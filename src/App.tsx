@@ -15,7 +15,7 @@ function App() {
     setIp(event.target.value);
   };
 
-  const apiUrl = "http://ipwho.is/";
+  const apiUrl = "https://ipwho.is/";
 
   const getData = async (ipAddress: string) => {
     try {
